@@ -1,3 +1,5 @@
+@import "../../style/variables";
+
 .header-bottom {
     width: 100%;
     height: 65px;
@@ -11,7 +13,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 70%;
+        width: 1170px;
+
         margin: 0 auto;
     }
     &__menu-wrapper {
@@ -31,7 +34,7 @@
         border-radius: 15px;
         width: 282px;
         margin-right: 25px;
-        background-color: #e8e8e8;
+        background-color: $black10;
         display: flex; /* Додано display: flex для можливості розтягнення input */
         align-items: center; /* Вирівнюємо елементи по вертикалі */
         padding: 6px; /* Додайте внутрішні відступи за необхідності */

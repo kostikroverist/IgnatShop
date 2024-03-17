@@ -1,3 +1,5 @@
+@import "../../style/variables";
+
 .product-card {
     width: 370px;
     &__image {
@@ -9,10 +11,12 @@
         h4 {
             font-size: 20px;
             font-weight: 500;
+            font-family: "Roboto", sans-serif;
+            font-variant: small-caps;
         }
         p {
             font-size: 16px;
-            color: #626262;
+            color: $black60;
         }
     }
     &__type-info {
@@ -21,7 +25,7 @@
     }
     &__price {
         p {
-            color: #4aaa4e;
+            color: $greenPrice;
             font-size: 20px;
             font-weight: bold;
         }

@@ -39,7 +39,7 @@ const CardReviewsSlider = () => {
         </div>
 
         <Swiper
-          spaceBetween={50}
+          spaceBetween={20}
           slidesPerView={4}
           modules={[Navigation]}
           slidesPerGroup={4}

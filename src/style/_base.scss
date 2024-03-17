@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    font-variant: small-caps;
+}
+h1 {
+    font-weight: 900;
+    font-size: 64px;
+    font-family: "Inter";
+    width: 100%;
+    font-variant: normal;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.flex {
+    display: flex;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}

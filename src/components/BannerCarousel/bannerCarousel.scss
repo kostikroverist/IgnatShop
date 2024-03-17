@@ -1,3 +1,4 @@
+@import "../../style/variables";
 .banner-carousel {
     width: 100%;
     height: 505px;
@@ -9,17 +10,12 @@
     background-position: center;
     background-repeat: no-repeat;
     &__container {
-        width: 70%;
+        width: 1170px;
         margin: 0 auto;
         display: flex;
         justify-content: space-around;
     }
     &__text {
-        h1 {
-            font-weight: 900;
-            font-size: 64px;
-            width: 100%;
-        }
         p {
             font-weight: 300;
             font-size: 64px;
@@ -34,13 +30,15 @@
     &__discount {
         width: 370px;
         font-size: 40px;
-        font-weight: 200;
-        background-color: rgba(255, 255, 255, 0.3);
+        font-family: "Inter";
+        font-weight: 300;
+        background-color: $discount;
         margin: 5px;
     }
     &__availability {
         font-size: 20px;
-        font-weight: 200;
+        font-family: "Inter";
+        font-weight: 300;
     }
 }
 
@@ -57,7 +55,7 @@
     position: inherit !important;
 }
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
     width: 16px !important;
     height: 7px !important;
     border-radius: 15px !important;

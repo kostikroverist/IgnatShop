@@ -1,5 +1,7 @@
+@import "../../style/variables";
+
 .footer-top {
-    width: 70%;
+    width: 1170px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -7,7 +9,7 @@
 
     &__info {
         margin-top: 18px;
-        color: #626262;
+        color: $black60;
     }
 
     &__social {
@@ -41,13 +43,13 @@
     }
 
     &__link-info {
-        color: #626262;
+        color: $black60;
         margin-top: 10px;
         text-decoration: none; // Додано
     }
 
     &__links-heading {
-        color: #343434;
+        color: $black80;
         font-weight: 599;
         font-size: 16px;
         font-weight: 600; // Змінено

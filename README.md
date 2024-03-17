@@ -1,62 +1,57 @@
-Sure, here's a draft for your `README.md` file:
+## Ignat Sport Store Documentation
 
-```markdown
-# Ignat Sport Store
+Welcome to the Ignat Sport Store project! Below is a brief overview of the project structure and its main components.
 
-Welcome to Ignat Sport Store, a sports shop for all your athletic needs.
+### Project Structure
 
-## Introduction
+The project structure follows a typical React application setup:
 
-Ignat Sport Store is a web application designed to provide users with a seamless shopping experience for sports-related products.
+- `src/`: This directory contains all the source code for the application.
+  - `components/`: Contains reusable UI components used throughout the application.
+  - `layouts/`: Contains layout components that structure the overall page layout.
+  - `pages/`: Contains individual page components that are rendered by React Router.
+  - `styles/`: Contains SCSS files for styling the application.
+- `public/`: Contains static assets such as images, fonts, and icons.
 
-## Dependencies
+### Main Components
 
-Make sure you have the following dependencies installed:
+1. **React Router Dom:**
+   - The project utilizes `react-router-dom` for client-side routing. This allows for navigation between different pages without a full page reload.
 
-- React: ^18.2.0
-- React DOM: ^18.2.0
-- React Icons: ^5.0.1
-- React Router DOM: ^6.22.3
-- Swiper: ^11.0.7
+2. **Layout Component:**
+   - A layout component has been implemented to provide a consistent structure across different pages of the application. This layout can be easily extended to accommodate future enhancements.
 
-You can install these dependencies using Yarn:
+3. **Slider Component:**
+   - The project features three working sliders implemented using the `Slider` library. These sliders provide interactive content presentation to users.
 
-```bash
-yarn install
-```
+4. **Custom Button Component:**
+   - A custom button component has been created, featuring default and dark themes. This button enhances the user interface and maintains consistency across the application.
 
-## Scripts
+5. **SCSS Styling:**
+   - SCSS (Sass) is used for styling the application. SCSS files are organized within the `style/` directory and provide a modular and maintainable approach to styling.
 
-Use the following scripts to run different tasks:
+### Getting Started
 
-- `dev`: Run the development server using Vite.
-- `build`: Build the project using TypeScript and Vite.
-- `lint`: Lint the codebase using ESLint.
-- `preview`: Preview the production build using Vite.
-
-## Getting Started
-
-To get started with Ignat Sport Store, follow these steps:
+To get started with the Ignat Sport Store project:
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/kostikroverist/IgnatShop.git
-```
+   ```bash
+   git clone https://github.com/kostikroverist/IgnatShop.git
+   ```
 
 2. Install dependencies:
 
-```bash
-yarn install
-```
+   ```bash
+   yarn install
+   ```
 
 3. Run the development server:
 
-```bash
-yarn dev
-```
+   ```bash
+   yarn dev
+   ```
 
-4. Open your browser and navigate to `http://localhost:5173/` to view the application.
+4. Open your browser and navigate to `http://localhost:3000` to view the application.
 
-
-
+5. Or you can navigate to `https://ignat-shop.netlify.app/` to view the application without installation.

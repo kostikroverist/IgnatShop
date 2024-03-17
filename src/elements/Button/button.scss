@@ -1,3 +1,4 @@
+@import "../../style/variables";
 .button,
 .button-dark {
   min-width: 165px;
@@ -10,7 +11,7 @@
 }
 
 .button {
-  background-color: #626262;
+  background-color: $black60;
 }
 
 .button-dark {
