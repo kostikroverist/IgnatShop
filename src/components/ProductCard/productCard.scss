@@ -1,0 +1,45 @@
+.product-card {
+    width: 370px;
+    &__image {
+        height: 433px;
+        position: relative;
+    }
+    &__info {
+        padding-top: 15px;
+        h4 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+        p {
+            font-size: 16px;
+            color: #626262;
+        }
+    }
+    &__type-info {
+        margin-top: 20px;
+        margin-bottom: 12px;
+    }
+    &__price {
+        p {
+            color: #4aaa4e;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+}
+.product-card__likeButton {
+    position: absolute;
+    top: 10px; /* Змініть значення, якщо потрібно */
+    right: 10px; /* Змініть значення, якщо потрібно */
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    color: black; /* Колір іконки */
+    cursor: pointer;
+    background-color: white;
+}

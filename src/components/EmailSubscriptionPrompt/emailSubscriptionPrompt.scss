@@ -1,0 +1,46 @@
+.email-subscription {
+    margin-top: 80px;
+    width: 100%;
+    &__container {
+        width: 70%;
+
+        border-top: 1px solid #959595;
+        margin: 0 auto;
+        text-align: center;
+    }
+    &__title {
+        margin-top: 150px;
+        text-align: center;
+        font-size: 38px;
+    }
+    &__description {
+        width: 540px;
+        margin: 0 auto;
+        color: #343434;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+}
+
+.email-subscription__input {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 400px;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+    border-radius: 15px;
+    margin-right: -30px; /* Додаємо від'ємний margin, щоб input налазив на кнопку */
+}
+
+.email-subscription__input::placeholder {
+    color: #999;
+}
+
+.email-subscription__input:focus {
+    border-color: #007bff;
+}
+
+.email-subscription__button {
+    margin-left: -10px; /* Додаємо від'ємний margin, щоб кнопка налазила на input */
+}

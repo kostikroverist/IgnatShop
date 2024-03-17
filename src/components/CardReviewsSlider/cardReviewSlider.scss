@@ -1,0 +1,18 @@
+.card-reviews {
+    width: 100%;
+    margin-top: 110px;
+    &__container {
+        width: 70%;
+
+        margin: 0 auto;
+    }
+    h3 {
+        font-size: 26px;
+    }
+}
+
+.swiper-pagination-button {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}

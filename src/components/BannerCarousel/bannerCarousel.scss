@@ -1,0 +1,65 @@
+.banner-carousel {
+    width: 100%;
+    height: 505px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    &__container {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    &__text {
+        h1 {
+            font-weight: 900;
+            font-size: 64px;
+            width: 100%;
+        }
+        p {
+            font-weight: 300;
+            font-size: 64px;
+        }
+    }
+    &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    &__discount {
+        width: 370px;
+        font-size: 40px;
+        font-weight: 200;
+        background-color: rgba(255, 255, 255, 0.3);
+        margin: 5px;
+    }
+    &__availability {
+        font-size: 20px;
+        font-weight: 200;
+    }
+}
+
+.swiper-button-next,
+.swiper-rtl,
+.swiper-button-prev {
+    color: white !important;
+    margin-right: 40px;
+    margin-top: 40px !important;
+}
+
+.swiper-pagination {
+    margin-top: 20px;
+    position: inherit !important;
+}
+
+.swiper-pagination-bullet{
+    width: 16px !important;
+    height: 7px !important;
+    border-radius: 15px !important;
+    background-color: black !important;
+}

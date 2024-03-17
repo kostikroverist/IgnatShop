@@ -1,0 +1,55 @@
+.header-bottom {
+    width: 100%;
+    height: 65px;
+    &__logo {
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        font-weight: 900;
+    }
+    &__container {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+        margin: 0 auto;
+    }
+    &__menu-wrapper {
+        nav {
+            margin: 5px;
+            display: flex;
+            a {
+                text-transform: uppercase;
+                margin: 0 20px;
+                padding: 5px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+            }
+        }
+    }
+    &__search-bar {
+        border-radius: 15px;
+        width: 282px;
+        margin-right: 25px;
+        background-color: #e8e8e8;
+        display: flex; /* Додано display: flex для можливості розтягнення input */
+        align-items: center; /* Вирівнюємо елементи по вертикалі */
+        padding: 6px; /* Додайте внутрішні відступи за необхідності */
+        input {
+            padding: 5px;
+            flex: 1; /* Розтягнення input на всю доступну ширину */
+            height: 100%; /* Розтягнення на весь батьківський блок */
+            border: none; /* Вимикаємо рамку */
+            outline: none; /* Вимикаємо обведення */
+            background: transparent; /* Прозорий фон */
+            color: black;
+            font-size: 16px;
+        }
+    }
+    &__icon-links {
+        width: 75px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

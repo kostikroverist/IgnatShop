@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.flex {
+    display: flex;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: "Inter";
+}
+
+.swiper-header-button-group {
+    top: 0;
+    right: 68px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.button-group {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-swiper-button-prev-1,
+.icon-swiper-button-next-1,
+.icon-swiper-button-prev-2,
+.icon-swiper-button-next-2 {
+    all: initial;
+}
+.swiper-button-disabled {
+    &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+}
