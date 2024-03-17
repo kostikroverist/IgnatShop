@@ -10,24 +10,23 @@ The project structure follows a typical React application setup:
   - `components/`: Contains reusable UI components used throughout the application.
   - `layouts/`: Contains layout components that structure the overall page layout.
   - `pages/`: Contains individual page components that are rendered by React Router.
-  - `styles/`: Contains SCSS files for styling the application.
+  - `style/`: Contains SCSS files for styling the application.
 - `public/`: Contains static assets such as images, fonts, and icons.
 
 ### Main Components
 
-1. **React Router Dom:**
-   - The project utilizes `react-router-dom` for client-side routing. This allows for navigation between different pages without a full page reload.
 
-2. **Layout Component:**
+
+1. **Layout Component:**
    - A layout component has been implemented to provide a consistent structure across different pages of the application. This layout can be easily extended to accommodate future enhancements.
 
-3. **Slider Component:**
+2. **Slider Component:**
    - The project features three working sliders implemented using the `Slider` library. These sliders provide interactive content presentation to users.
 
-4. **Custom Button Component:**
+3. **Custom Button Component:**
    - A custom button component has been created, featuring default and dark themes. This button enhances the user interface and maintains consistency across the application.
 
-5. **SCSS Styling:**
+4. **SCSS Styling:**
    - SCSS (Sass) is used for styling the application. SCSS files are organized within the `style/` directory and provide a modular and maintainable approach to styling.
 
 ### Getting Started
