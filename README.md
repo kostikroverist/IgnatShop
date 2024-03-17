@@ -52,6 +52,6 @@ To get started with the Ignat Sport Store project:
    yarn dev
    ```
 
-4. Open your browser and navigate to `http://localhost:3000` to view the application.
+4. Open your browser and navigate to `http://localhost:5174` to view the application.
 
 5. Or you can navigate to `https://ignat-shop.netlify.app/` to view the application without installation.
