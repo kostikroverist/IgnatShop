@@ -1,6 +1,3 @@
-Sure, here's a draft for your `README.md` file:
-
-```markdown
 # Ignat Sport Store
 
 Welcome to Ignat Sport Store, a sports shop for all your athletic needs.
