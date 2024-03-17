@@ -55,5 +55,5 @@ yarn dev
 
 4. Open your browser and navigate to `http://localhost:5173/` to view the application.
 
-
+5. Or you can navigate to `https://ignat-shop.netlify.app/` to view the application without installation.
 
