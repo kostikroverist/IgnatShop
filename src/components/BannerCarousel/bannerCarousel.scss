@@ -16,6 +16,9 @@
         justify-content: space-around;
     }
     &__text {
+        h1 {
+                    font-family: "Inter";
+        }
         p {
             font-weight: 300;
             font-size: 64px;
