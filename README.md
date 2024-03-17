@@ -26,8 +26,7 @@ The project structure follows a typical React application setup:
 3. **Custom Button Component:**
    - A custom button component has been created, featuring default and dark themes. This button enhances the user interface and maintains consistency across the application.
 
-4. **SCSS Styling:**
-   - SCSS (Sass) is used for styling the application. SCSS files are organized within the `style/` directory and provide a modular and maintainable approach to styling.
+
 
 ### Getting Started
 
